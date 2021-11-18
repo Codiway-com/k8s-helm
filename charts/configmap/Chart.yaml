@@ -1,18 +1,16 @@
 apiVersion: v2
-name: k8s-pvc
+name: k8s-configmap
 description: PVC primitive for heml Kubernetes
 type: application
-version: 0.1.2
+version: 0.1.0
 icon: https://codiway-com.github.io/k8s-helm/icon.png
 maintainers:
   - name: broneqq
     url: https://github.com/broneq
 home: https://github.com/Codiway-com/k8s-helm
 keywords:
-  - pvc
   - api
   - primitives
-  - volume
-  - persistent
-  - peristentvolumeclaim
-  - claim
+  - config
+  - configmap
+  - map

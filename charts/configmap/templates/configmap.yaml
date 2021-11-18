@@ -1,0 +1,31 @@
+{{- if .Values.configmap }}
+  {{- range $name, $value := .Values.configmap }}
+  {{- if $value}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $value.name }}
+  labels:
+    {{- include "k8s-configmap.labels" $ | nindent 4 }}
+  {{- if $value.configmapData }}
+data:
+  {{-  range $configmapKey, $configmapValue := $value.configmapData }}
+  {{ $configmapKey }}:
+  {{ toYaml $configmapValue | indent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if $value.configmapBinaryData }}
+binaryData:
+  {{-  range $configmapKey, $configmapValue := $value.configmapBinaryData }}
+  {{ $configmapKey }}: {{ $configmapValue | b64enc }}
+  {{- end }}
+  {{- end }}
+  {{- if $value.configmapYaml }}
+data:
+  yaml: |
+    {{- toYaml $value.configmapYaml | nindent 4 }}
+  {{- end }}
+---
+{{- end }}
+{{- end }}
+{{- end }}
