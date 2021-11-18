@@ -1,6 +1,49 @@
 apiVersion: v1
 entries:
+  k8s-configmap:
+  - apiVersion: v2
+    created: "2021-11-18T18:30:34.937614379Z"
+    description: PVC primitive for heml Kubernetes
+    digest: ba99e91a1402a80599724467da5c4e275da5d84ec53f73637b1f166f1fb18172
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - api
+    - primitives
+    - config
+    - configmap
+    - map
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-configmap
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-configmap-0.1.0/k8s-configmap-0.1.0.tgz
+    version: 0.1.0
   k8s-pvc:
+  - apiVersion: v2
+    created: "2021-11-18T18:30:35.132151893Z"
+    description: PVC primitive for heml Kubernetes
+    digest: 3af4845b62bd9953ebda2f3ab8279b89307ed6b524464c8e7ebb3261ace3c22a
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - pvc
+    - api
+    - primitives
+    - volume
+    - persistent
+    - peristentvolumeclaim
+    - claim
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-pvc
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-pvc-0.1.2/k8s-pvc-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     created: "2021-11-18T16:48:08.820844373Z"
     description: PVC primitive for heml Kubernetes
@@ -31,4 +74,4 @@ entries:
     urls:
     - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-pvc-0.1.0/k8s-pvc-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-18T16:48:08.820850373Z"
+generated: "2021-11-18T18:30:35.132163593Z"
