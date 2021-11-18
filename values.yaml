@@ -1,9 +1,0 @@
-pvc:
-
-#example:
-#pvc:
-#  - name: test-volume-claim
-#    accessModes:
-#      - ReadWriteOnce
-#    storageClassName: "local-persist"
-#    size: 1G

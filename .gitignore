@@ -1,9 +1,0 @@
-.bash_history
-/charts/*
-# Wykluczenia na pliki, które zawierają ustawienia danego developera
-/.idea/*
-!/.idea/codeStyles
-!/.idea/inspectionProfiles
-!/.idea/fileTemplates
-!/.idea/potsl.iml
-!/.idea/modules.xml
