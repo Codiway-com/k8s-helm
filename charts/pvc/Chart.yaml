@@ -2,4 +2,16 @@ apiVersion: v2
 name: k8s-pvc
 description: PVC primitive for heml Kubernetes
 type: application
-version: 0.1.0
+version: 0.1.1
+icon: https://codiway-com.github.io/k8s-helm/icon.png
+maintainers:
+  - name: broneqq
+    url: https://github.com/broneq
+keywords:
+  - pvc
+  - api
+  - primitives
+  - volume
+  - persistent
+  - peristentvolumeclaim
+  - claim
