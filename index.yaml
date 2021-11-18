@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  k8s-pvc:
+  - apiVersion: v2
+    created: "2021-11-18T16:22:07.599588548Z"
+    description: PVC primitive for heml Kubernetes
+    digest: 2fb69b432eebd018af71433a5acb8ba430e9845eca76eeff743e775f5107fd6d
+    name: k8s-pvc
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-pvc-0.1.0/k8s-pvc-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-18T16:22:07.599593148Z"
