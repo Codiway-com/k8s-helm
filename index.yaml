@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   k8s-configmap:
   - apiVersion: v2
+    created: "2021-11-20T20:08:44.237749594Z"
+    description: ConfigMap primitive for heml Kubernetes
+    digest: 322860234d2275c79f58fd76f84f166abe261361fb3546b511ad989f274b15e2
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - api
+    - primitives
+    - config
+    - configmap
+    - map
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-configmap
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-configmap-0.1.2/k8s-configmap-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     created: "2021-11-18T18:30:34.937614379Z"
     description: PVC primitive for heml Kubernetes
     digest: ba99e91a1402a80599724467da5c4e275da5d84ec53f73637b1f166f1fb18172
@@ -22,6 +42,28 @@ entries:
     - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-configmap-0.1.0/k8s-configmap-0.1.0.tgz
     version: 0.1.0
   k8s-pvc:
+  - apiVersion: v2
+    created: "2021-11-20T20:08:44.372521113Z"
+    description: PersistantVolumeClaim primitive for heml Kubernetes
+    digest: d74a7d0a7528fac64358a18fcd432287ef2029d5ab962dfafc06c03724220dca
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - pvc
+    - api
+    - primitives
+    - volume
+    - persistent
+    - peristentvolumeclaim
+    - claim
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-pvc
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-pvc-0.1.3/k8s-pvc-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     created: "2021-11-18T18:30:35.132151893Z"
     description: PVC primitive for heml Kubernetes
@@ -76,6 +118,25 @@ entries:
     version: 0.1.0
   k8s-secret:
   - apiVersion: v2
+    created: "2021-11-20T20:08:44.523084751Z"
+    description: Secret primitive for heml Kubernetes
+    digest: 035c773130d75f225816abf3f52c73a8e698f2243762a73c89c17fad66f18e01
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - secret
+    - api
+    - primitives
+    - secrets
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-secret
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-secret-0.1.3/k8s-secret-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     created: "2021-11-20T20:07:39.577566031Z"
     description: PVC primitive for heml Kubernetes
     digest: 48781d54cfdfafb159c461f7cec2866b92a01e5f849b567c4f42d197aee842ab
@@ -115,4 +176,4 @@ entries:
     urls:
     - https://github.com/Codiway-com/k8s-helm/releases/download/secret-0.1.0/secret-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-20T20:07:39.577578631Z"
+generated: "2021-11-20T20:08:44.523127447Z"
