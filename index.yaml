@@ -74,6 +74,17 @@ entries:
     urls:
     - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-pvc-0.1.0/k8s-pvc-0.1.0.tgz
     version: 0.1.0
+  k8s-secret:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-20T09:08:46.25663823Z"
+    description: A Helm chart for Kubernetes
+    digest: cec3008078efe1370e2461b4348d0c62b3e41ece43125b1e6fc8108ba0793c4a
+    name: k8s-secret
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-secret-0.1.1/k8s-secret-0.1.1.tgz
+    version: 0.1.1
   secret:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -85,4 +96,4 @@ entries:
     urls:
     - https://github.com/Codiway-com/k8s-helm/releases/download/secret-0.1.0/secret-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-19T22:47:17.651951598Z"
+generated: "2021-11-20T09:08:46.25665153Z"
