@@ -76,6 +76,25 @@ entries:
     version: 0.1.0
   k8s-secret:
   - apiVersion: v2
+    created: "2021-11-20T20:07:39.577566031Z"
+    description: PVC primitive for heml Kubernetes
+    digest: 48781d54cfdfafb159c461f7cec2866b92a01e5f849b567c4f42d197aee842ab
+    home: https://github.com/Codiway-com/k8s-helm
+    icon: https://codiway-com.github.io/k8s-helm/icon.png
+    keywords:
+    - secret
+    - api
+    - primitives
+    - secrets
+    maintainers:
+    - name: broneqq
+      url: https://github.com/broneq
+    name: k8s-secret
+    type: application
+    urls:
+    - https://github.com/Codiway-com/k8s-helm/releases/download/k8s-secret-0.1.2/k8s-secret-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2021-11-20T09:08:46.25663823Z"
     description: A Helm chart for Kubernetes
@@ -96,4 +115,4 @@ entries:
     urls:
     - https://github.com/Codiway-com/k8s-helm/releases/download/secret-0.1.0/secret-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-20T09:08:46.25665153Z"
+generated: "2021-11-20T20:07:39.577578631Z"
