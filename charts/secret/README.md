@@ -12,7 +12,7 @@ secrets:
     - name: login
       values:
         username: admin
-        passowrd: qwerty
+        password: qwerty
     - name: traefic-basic-auth
       data:
         users: |2
